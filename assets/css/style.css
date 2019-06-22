@@ -1,6 +1,7 @@
 body{
     font-family: 'Noto Sans', 'serif';
     font-size: 1.25rem;
+    color:#9E9E9E;
 }
 .nav-link{
     color:#407B9D !important;
@@ -9,14 +10,15 @@ body{
 
 .section-landing h1{
     /* font-family: 'Inconsolata', monospace; */
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Raleway', sans-serif;
     font-size: 7.5rem;
     color: #407B9D;
 }
 .section-landing{
     /* background: linear-gradient(rgba(255, 255, 255, 0) 62%, rgba(255, 198, 159, 0.29)); */
     background:linear-gradient(to bottom, rgba(255,255,255,0.18) 79%, rgba(255,255,255,0.22) 80%, rgba(219,170,160,1) 100%);
-    min-height: 450px;
+    min-height: 748px;
 }
 
 .wrapper {
@@ -28,6 +30,10 @@ body{
   }
   .label {
     font-size: 2em;
-    /* display: block; */
+    display: block;
     color: #aaa;
+    padding-top:0.5rem;
+  }
+  #countdown{
+      padding-top:3rem; 
   }
