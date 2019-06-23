@@ -45,3 +45,10 @@ body{
   #countdown{
       padding-top:3rem; 
   }
+
+  .timeline__content h2{
+      color: #407B9D;
+  }
+  .timeline__content h6{
+      color: #9E9E9E;
+  }
