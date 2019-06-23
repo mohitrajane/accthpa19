@@ -31,24 +31,35 @@ body{
 
 .wrapper {
     text-align: center;
-  }
-  .time {
+}
+.time {
     color: #407B9D;
     font-size: 5rem;
-  }
-  .label {
+}
+.label {
     font-size: 2em;
     display: block;
     color: #aaa;
     padding-top:0.5rem;
-  }
-  #countdown{
+}
+#countdown{
       padding-top:3rem; 
-  }
+}
 
-  .timeline__content h2{
+.timeline__content h2{
       color: #407B9D;
-  }
-  .timeline__content h6{
+}
+.timeline__content h6{
       color: #9E9E9E;
-  }
+}
+.heading{
+      color: #407B9D;
+      font-size: 2.7rem;
+      border-bottom: 0.5rem solid rgba(219,170,160,1);
+}
+.heading p{
+    padding:2rem; 
+}
+.about p{
+    padding-top: 3rem;
+}
