@@ -3,9 +3,18 @@ body{
     font-size: 1.25rem;
     color:#9E9E9E;
 }
+
+nav {
+    padding: 2rem !important;
+}
+.nav-container {
+    background: linear-gradient(to bottom,  rgba(216, 65, 77, 0.29) 12.5%, #FFFFFF);
+}
 .nav-link{
-    color:#407B9D !important;
-    font-size: 1.75rem;
+    color:#2F97C1 !important;
+    font-size: 1.25rem;
+    font-weight: 575;
+    padding: 0.75rem !important;
 }
 .navbar .nav-link:hover{
     color:#5EB4E6 !important;
@@ -15,25 +24,32 @@ body{
     /* font-family: 'Inconsolata', monospace; */
     /* font-family: 'Merriweather', serif; */
     font-family: 'Raleway', sans-serif;
-    font-size: 8.5rem;
+    font-size: 6rem;
+    /*
     color: #407B9D;
+    */
+    color: #7EBBE0;
 }
 .section-landing h2{
+    /*
     color: rgba(219,170,160,1);
-    font-size: 2.7rem;
+    */
+    color: #E5605E;
+    font-size: 2rem;
     font-weight: 300;
 }
 .section-landing{
-    /* background: linear-gradient(rgba(255, 255, 255, 0) 62%, rgba(255, 198, 159, 0.29)); */
-    background:linear-gradient(to bottom, rgba(255,255,255,0.18) 79%, rgba(255,255,255,0.22) 80%, rgba(219,170,160,1) 100%);
-    min-height: 748px;
+    /* background: linear-gradient(rgba(255, 255, 255, 0) 62%, rgba(255, 198, 159, 0.29)); 
+    background:linear-gradient(to bottom, rgba(255,255,255,0.18) 79%, rgba(255,255,255,0.22) 80%, rgba(219,170,160,1) 100%);*/
+    background: linear-gradient(180deg, rgba(229, 96, 94, 0) 62.98%, rgba(216, 65, 77, 0.29) 100%);
+    min-height: 90vh;
 }
 
 .wrapper {
     text-align: center;
 }
 .time {
-    color: #407B9D;
+    color: #2F97C1;
     font-size: 5rem;
 }
 .label {
@@ -43,7 +59,7 @@ body{
     padding-top:0.5rem;
 }
 #countdown{
-      padding-top:3rem; 
+      padding-top:3rem;
 }
 
 .timeline__content h2{
@@ -53,9 +69,13 @@ body{
       color: #9E9E9E;
 }
 .heading{
-      color: #407B9D;
-      font-size: 2.7rem;
-      border-bottom: 0.5rem solid rgba(219,170,160,1);
+      color: #2F97C1;
+      font-size: 1.5rem;
+      font-weight: 600;
+      /*
+      border-bottom: 0.4rem solid rgba(219,170,160,1);
+      */
+      border-bottom: 0.4rem solid #E5605E;
 }
 .heading p{
     padding:2rem; 
