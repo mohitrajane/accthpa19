@@ -34,7 +34,7 @@ nav {
     /* font-family: 'Inconsolata', monospace; */
     /* font-family: 'Merriweather', serif; */
     font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     /*
     color: #407B9D;
     */
@@ -48,8 +48,13 @@ nav {
     font-size: 2rem;
     font-weight: 300;
 }
+.section-landing{
+    /* background: linear-gradient(rgba(255, 255, 255, 0) 62%, rgba(255, 198, 159, 0.29)); */
+    background:linear-gradient(to bottom, rgba(255,255,255,0.18) 79%, rgba(255,255,255,0.22) 80%, rgba(219,170,160,1) 100%);
+    min-height: 625px;
+}
 
-p .homepage {
+p {
     padding-bottom: 2rem;
     padding-top: 2rem;
     color: #343434;
@@ -85,4 +90,26 @@ p .homepage {
 #map {
     height: 720px;
     width: 100%;
+}
+
+.place{
+    font-size:2rem !important;
+    color:#9E9E9E !important;
+}
+
+.key-date{
+    font-weight: bold;
+    color:#000;
+}
+
+.organizers h3{
+    color:#000;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.organizers h1{
+    padding:2rem 0;
+}
+.organizers p{
+    max-width: 70vh;
 }
