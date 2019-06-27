@@ -5,7 +5,7 @@ body{
 }
 .nav-link{
     color:#407B9D !important;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 .navbar .nav-link:hover{
     color:#5EB4E6 !important;
@@ -15,7 +15,7 @@ body{
     /* font-family: 'Inconsolata', monospace; */
     /* font-family: 'Merriweather', serif; */
     font-family: 'Raleway', sans-serif;
-    font-size: 7.5rem;
+    font-size: 6.4rem;
     color: #407B9D;
 }
 .section-landing h2{
@@ -26,7 +26,7 @@ body{
 .section-landing{
     /* background: linear-gradient(rgba(255, 255, 255, 0) 62%, rgba(255, 198, 159, 0.29)); */
     background:linear-gradient(to bottom, rgba(255,255,255,0.18) 79%, rgba(255,255,255,0.22) 80%, rgba(219,170,160,1) 100%);
-    min-height: 748px;
+    min-height: 625px;
 }
 
 .wrapper {
@@ -54,7 +54,7 @@ body{
 }
 .heading{
       color: #407B9D;
-      font-size: 2.7rem;
+      font-size: 2.0rem;
       border-bottom: 0.5rem solid rgba(219,170,160,1);
 }
 .heading p{
@@ -62,4 +62,26 @@ body{
 }
 .about p{
     padding-top: 3rem;
+}
+
+.place{
+    font-size:2rem !important;
+    color:#9E9E9E !important;
+}
+
+.key-date{
+    font-weight: bold;
+    color:#000;
+}
+
+.organizers h3{
+    color:#000;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.organizers h1{
+    padding:2rem 0;
+}
+.organizers p{
+    max-width: 70vh;
 }
