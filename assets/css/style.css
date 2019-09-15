@@ -116,6 +116,11 @@ li {
     color: #343434;
 }
 
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 #content h1 {
     font-size: 1.5rem;
     color: #343434;
