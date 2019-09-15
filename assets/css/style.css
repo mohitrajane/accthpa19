@@ -83,6 +83,11 @@ p {
     width: 100%;
 }
 
+#kalady-map {
+    height: 500px;
+    margin-bottom: 4rem;
+}
+
 .place{
     font-size: 2rem !important;
     color: #9E9E9E !important;
@@ -105,4 +110,18 @@ p {
 
 .organizers p{
     max-width: 70vh;
+}
+
+li {
+    color: #343434;
+}
+
+#content h1 {
+    font-size: 1.5rem;
+    color: #343434;
+}
+
+#bodyContent p {
+    padding-top: 1rem;
+    font-size: 1.05rem;
 }
