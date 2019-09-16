@@ -1,5 +1,6 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 300 !important;
     font-size: 1.25rem;
     color:#9E9E9E;
 }
@@ -7,39 +8,42 @@ body{
 nav {
     padding: 2rem !important;
 }
+
 .nav-container {
-    background: linear-gradient(to bottom,  rgba(216, 65, 77, 0.29) 12.5%, #FFFFFF);
+    background: linear-gradient(to bottom,  rgba(93, 217, 193, 0.29) 12.5%, #FFFFFF);
 }
+
 .nav-link{
-    color:#2F97C1 !important;
+    color:#8A6FB7 !important;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 500 !important;
     padding: 0.75rem !important;
 }
+
 .navbar .nav-link:hover{
-    color:#5EB4E6 !important;
+    color:#8a6fb7 !important;
 }
 
 .navbar .nav-item .dropdown-menu .dropdown-item {
-    color: #2F97C1;
+    color: #8A6FB7;
 }
 .navbar .nav-item .dropdown-menu .dropdown-item:hover {
-    background: rgb(252, 183, 181);
+    background: rgba(93, 217, 193, 0.29);
 }
 
-.section-landing h1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.5rem;
-    color: #7EBBE0;
-}
-.section-landing h2{
-    color: #E5605E;
-    font-size: 2rem;
+.section-landing h2 {
+    color: #8A6FB7;
+    font-size: 3rem;
     font-weight: 300;
 }
-.section-landing{
-    background:linear-gradient(to bottom, rgba(255,255,255,0.18) 79%, rgba(255,255,255,0.22) 80%, rgba(219,170,160,1) 100%);
-    min-height: 625px;
+
+@media (max-width: 767.98px) {
+    .section-landing h2 {
+        font-size: 2rem;
+    }
+    .section-landing h3 {
+        font-size: 1.5rem;
+    }
 }
 
 p {
@@ -48,30 +52,32 @@ p {
     color: #343434;
 }
 
-.section-landing{
-    background: linear-gradient(180deg, rgba(229, 96, 94, 0) 62.98%, rgba(216, 65, 77, 0.29) 100%);
+.section-landing {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(180deg, rgba(229, 96, 94, 0) 62.98%, rgba(93, 217, 193, 0.29) 100%);
     min-height: 90vh;
 }
 
-.heading{
+.heading {
     font-family: 'Noto Sans', 'serif';
     text-transform: uppercase;
-    color: #2F97C1;
+    color: #8A6FB7;
     font-size: 1.5rem;
     font-weight: 600;
-    border-bottom: 0.4rem solid #E5605E;
-}
-.sub-heading{
-    color: #2F97C1;
-    font-size: 1.5rem;
-    border-bottom: 0.2rem solid #E5605E;
+    border-bottom: 0.4rem solid #5DD9C1;
 }
 
-.heading p{
+.sub-heading {
+    color: #8A6FB7;
+    font-size: 1.5rem;
+    border-bottom: 0.2rem solid #5DD9C1;
+}
+
+.heading p {
     padding:2rem;
 }
 
-.about p{
+.about p {
     padding-top: 3rem;
     font-size: 1.15rem;
     font-weight: 100;
@@ -88,27 +94,27 @@ p {
     margin-bottom: 4rem;
 }
 
-.place{
+.place {
     font-size: 2rem !important;
     color: #9E9E9E !important;
 }
 
-.key-date{
+.key-date {
     font-weight: bold;
     color: #000;
 }
 
-.organizers h3{
+.organizers h3 {
     color: #000;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-.organizers h1{
+.organizers h1 {
     padding: 2rem 0;
 }
 
-.organizers p{
+.organizers p {
     max-width: 70vh;
 }
 
