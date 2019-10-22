@@ -1,8 +1,10 @@
 body {
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: 300 !important;
     font-size: 1.25rem;
     color:#9E9E9E;
+    min-height: 100vh !important;
 }
 
 nav {
@@ -29,6 +31,22 @@ nav {
 }
 .navbar .nav-item .dropdown-menu .dropdown-item:hover {
     background: rgba(93, 217, 193, 0.29);
+}
+
+footer {
+    position: absolute;
+    bottom: 0 !important;
+    width: 100%;
+    /* padding-bottom: 1rem; */
+    /* height: 6rem; */
+    background: linear-gradient(to top,  rgba(93, 217, 193, 0.29) 12.5%, #FFFFFF);
+    text-align: center;
+    font-size: 1.25rem;
+    color: #343434;
+}
+footer p {
+    margin-bottom: 0;
+    /* padding-bottom: 0; */
 }
 
 .section-landing h2 {
@@ -79,7 +97,7 @@ p {
 
 .about p {
     padding-top: 3rem;
-    font-size: 1.15rem;
+    font-size: 1.35rem;
     font-weight: 100;
     color: #343434;
 }
@@ -135,4 +153,65 @@ hr {
 #bodyContent p {
     padding-top: 1rem;
     font-size: 1.05rem;
+}
+
+.my-button {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    /* margin-top: 1.5rem; */
+    color: #8A6FB7;
+    padding: 0.75rem;
+    border: 0.1rem solid #8A6FB7;
+    white-space: nowrap;
+}
+@media (max-width: 767px) {
+    .submission #buttons {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        line-height: 4rem;
+    }
+}
+
+.my-button:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 0.1rem solid #8A6FB7;
+    background-color: #8A6FB7;
+}
+
+.registration ul {
+    margin-top: 2rem;
+}
+
+.registration table {
+    /* border-collapse: collapse; */
+    margin-top: 2rem;
+    color: #343434;
+}
+.registration th, .registration td {
+    /* border: 1px solid #dddddd; */
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.registration tr:nth-child(even) {
+    background-color: rgba(93, 217, 192, 0.15);
+}
+
+/*Latex Symbol*/
+.latex sub, .latex sup {
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.latex sub {
+    vertical-align: -0.1ex;
+    margin-left: -0.1667em;
+    margin-right: -0.125em;
+}
+.latex sup {
+    font-size: 0.85em;
+    vertical-align: -0.2em;
+    margin-left: -0.26em;
+    margin-right: -0.05em;
 }
