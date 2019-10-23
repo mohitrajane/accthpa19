@@ -70,64 +70,58 @@
   </div>
   <!-- Navbar Complete -->
 
-    <!-- Main content -->
-    <div class="container about" style="padding-bottom: 10rem;">
+  <!-- Main content -->
+  <div class="container about" style="padding-bottom: 10rem;">
 
-        <section id="venue">
-            <p><span class="heading">VENUE : Federal Institute of Science And Technology (FISAT)</span></p>
-            <p>Federal Institute of Science And Technology (FISAT) is a private self financing Engineering College, established and run by the Federal Bank Officers` Association Educational Society (FBOAES). The FBOAES is an initiative of the Federal Bank Officers' Association (FBOA), the sole representative body of the entire officers of the Federal Bank.</p>
-            <p>Federal Institute of Science And Technology (FISAT) has a unique position in the Professional Education Sector in South India. With the motto "Focus on Excellence", FISAT has been designed and developed to become a "Centre of Excellence" in professional education.  Established in the year 2002, the college has carved a niche for itself in education world, eloquently demonstrated by the flying colors attained by its students in academics, placements as well as extra curricular and co curricular activities. FISAT has embarked on an ambitious plan to enhance the quality and value of education and develop high quality individuals. The institution is accredited by NAAC with 'A' Grade. The institution also received the coveted ISO 9001:2015 certification.</p>
-            <p>FISAT is set up at Mookannoor, near Angamaly in Ernakulam District, Kerala, the birth place of the founder of The Federal Bank Ltd, Late K P Hormis. To honour the revered memory of the great visionary, the campus of FISAT is christened `Hormis Nagar`.</p>
-    
-            <!--<div class="row">-->
-              <div class="col-xs-12">
-                <p ><span class="sub-heading">Reaching FISAT</span></p>
-                <p style="padding-top: 20px; color: #2F97C1">By Air Travel</p>
-                <p style="padding-top:0;">
-                  Take a taxi from Nedumbassery airport to FISAT. (14 KM, 30 Minutes)<br>
-                  Or you can catch a bus to Angamaly.
-                </p>
-                <p style="padding-top: 20px; color: #2F97C1">By Train or Bus</p>
-                <p style="padding-top:0;">
-                        Get down at Angamaly Station. From there, there are multiple ways you could reach FISAT:-
-                        <ul>
-                            <li>Take an auto-rickshaw that will take you to FISAT for about ₹150-180. (9 KM, 20 Minutes)</li>
-                            <li>Take a private bus that goes directly to FISAT. </li>
-                            <li>Take a private bus to Mookkannoor and : </li>
-                            <ul>
-                                <li>Walk for 15 minutes to FISAT. </li>
-                                <li>Take an auto-rikshaw from Mookkannoor to FISAT for about ₹50. </li>
-                            </ul>
-                        </ul>
-                    </p>
-                    <!--
-                    <div class="google-map">
-                        <iframe src="https://www.google.com/maps/d/embed?mid=1kUcQ3VTrGHMqXKfrEY6pbE0uQ3OxAVMs&amp;hl=et" width="100%" height="720"></iframe>
-                    </div>
-                    -->
-                    <div id="map"></div>
-                </div>
-            <!--</div>-->
-              </section>
-    </div>
+    <section id="venue">
+      <p><span class="heading">VENUE : Federal Institute of Science And Technology (FISAT)</span></p>
+      <p>Federal Institute of Science And Technology (FISAT) is a private self financing Engineering College, established and run by the Federal Bank Officers` Association Educational Society (FBOAES). The FBOAES is an initiative of the Federal Bank Officers' Association (FBOA), the sole representative body of the entire officers of the Federal Bank.</p>
+      <p>Federal Institute of Science And Technology (FISAT) has a unique position in the Professional Education Sector in South India. With the motto "Focus on Excellence", FISAT has been designed and developed to become a "Centre of Excellence" in professional education.  Established in the year 2002, the college has carved a niche for itself in education world, eloquently demonstrated by the flying colors attained by its students in academics, placements as well as extra curricular and co curricular activities. FISAT has embarked on an ambitious plan to enhance the quality and value of education and develop high quality individuals. The institution is accredited by NAAC with 'A' Grade. The institution also received the coveted ISO 9001:2015 certification.</p>
+      <p>FISAT is set up at Mookannoor, near Angamaly in Ernakulam District, Kerala, the birth place of the founder of The Federal Bank Ltd, Late K P Hormis. To honour the revered memory of the great visionary, the campus of FISAT is christened `Hormis Nagar`.</p>
+
+      <div class="col-xs-12">
+        <p ><span class="sub-heading">Reaching FISAT</span></p>
+        <p style="padding-top: 20px; color: #8A6FB7">By Air Travel</p>
+        <p style="padding-top:0;">
+          Take a taxi from Nedumbassery airport to FISAT. (14 KM, 30 Minutes)<br>
+          Or you can catch a bus to Angamaly.
+        </p>
+        <p style="padding-top: 20px; color: #8A6FB7">By Train or Bus</p>
+        <p style="padding-top:0;">
+          Get down at Angamaly Station. From there, there are multiple ways you could reach FISAT:-
+          <ul>
+            <li>Take an auto-rickshaw that will take you to FISAT for about ₹150-180. (9 KM, 20 Minutes)</li>
+            <li>Take a private bus that goes directly to FISAT. </li>
+            <li>Take a private bus to Mookkannoor and : </li>
+            <ul>
+              <li>Walk for 15 minutes to FISAT. </li>
+              <li>Take an auto-rikshaw from Mookkannoor to FISAT for about ₹50. </li>
+            </ul>
+          </ul>
+        </p>
+        <div id="map"></div>
+      </div>
+    </section>
+  </div>
 
   <footer>
     <div class="container"><hr></div>
     <p>Designed and developed by <a href="https://www.linkedin.com/in/nandinimenon/">Nandini Menon</a> and <a href="https://www.linkedin.com/in/mohit-rajan-e-756412160/">Mohit Rajan E</a>.</p>
   </footer>
-    <script>
-        function initMap() {
-          var fisat = {lat: 10.232954, lng: 76.408754};
-          var map = new google.maps.Map(
-              document.getElementById('map'), {zoom: 16, center: fisat});
-          var marker = new google.maps.Marker({position: fisat, map: map});
-        }
-    </script>
-    <script src="assets/js/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuuU1CLP8qBFCrkXJU6fNRftZyqs7jeAI&callback=initMap">
-    </script>
+
+  <script>
+    function initMap() {
+      var fisat = {lat: 10.232954, lng: 76.408754};
+      var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 16, center: fisat});
+      var marker = new google.maps.Marker({position: fisat, map: map});
+    }
+  </script>
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuuU1CLP8qBFCrkXJU6fNRftZyqs7jeAI&callback=initMap">
+  </script>
 </body>
 </html>
 
