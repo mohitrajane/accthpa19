@@ -33,6 +33,18 @@ nav {
     background: rgba(93, 217, 193, 0.29);
 }
 
+.navbar-brand img {
+    height: 75px;
+    width: 225px;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand img {
+        height: 50px;
+        width: 150px;
+    }
+}
+
 footer {
     position: absolute;
     bottom: 0 !important;
